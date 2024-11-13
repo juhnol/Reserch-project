@@ -22,4 +22,6 @@ This project is a toy model for simulating dispersion of passive solute in gauss
 
 - Realization of gaussian random velocity fields.
   
-- Runge-Kutta method for random walk particle tracking. 
+- Runge-Kutta method for random walk particle tracking.
+
+## Usage
