@@ -16,8 +16,6 @@ This project provides a toy model for simulating flow of passive solute in gauss
 
   where $\vec{X}(t|\vec{x}_0)$ is the trajetory of a particle whose initial position is $\vec{x}_0$, and $\vec{\xi}(t)$ is gaussian white noise.
 
-- Dispersion coefficents
-
 ## Methods
 
 See `flow_in_gaussian_velocity_field_v2.1.ipynb`.
