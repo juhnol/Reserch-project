@@ -1,6 +1,6 @@
-# Dispersion in gaussian random fields
+# Flow in Gaussian random fields
 
-This project is a toy model for simulating dispersion of passive solute in gaussian random fields. 
+This project provides a toy model for simulating flow of passive solute in gaussian random fields. 
 
 ## Principle
 
@@ -18,10 +18,20 @@ This project is a toy model for simulating dispersion of passive solute in gauss
 
 - Dispersion coefficents
 
-## Method
+## Methods
+
+See `flow_in_gaussian_velocity_field_v2.1.ipynb`.
 
 - Realization of gaussian random velocity fields.
   
 - Runge-Kutta method for random walk particle tracking.
 
+- Calculation of dispersion coefficients.
+
 ## Usage
+
+See `flow_in_gaussian_velocity_field_v2.1.ipynb`. 
+
+- The whole simulation are based on a class `Simulation`. After specifying parameters for simulation, call `Simulation.initialize_velocity_field()` and `Simulation.run_simulation()` to run the simulation.
+
+- After that, call `simulation.plot_particle_trajectories()` for particle trajectory visualization, and `simulation.calculate_dispersion_coefficients()` and `simulation.plot_dispersion_coefficients()` to calculate and visualize disperison coefficients.
